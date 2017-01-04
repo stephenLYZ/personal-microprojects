@@ -1,0 +1,30 @@
+{
+  "name": "personal-microprojects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenLYao/personal-microprojects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenLYao/personal-microprojects/issues"
+  },
+  "homepage": "https://github.com/stephenLYao/personal-microprojects",
+  "dependencies": {
+    "gh-pages": "^0.12.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-scripts": "^0.8.4"
+  }
+}
